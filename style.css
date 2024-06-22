@@ -38,6 +38,8 @@
 }
 .right p {
   margin-top: 20px;
+  width: 600px;
+  text-align: justify;
 }
 .right button {
   margin-top: 40px;
@@ -52,4 +54,63 @@
     rgba(210, 54, 5, 1) 0%,
     rgba(244, 210, 92, 1) 100%
   );
+}
+@media screen and (max-width:620px) and (min-width:370px){
+  
+#hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+  background-color: rgb(241, 236, 228);
+}
+.left {
+  width: 100%;
+  text-align: center;
+}
+.left img {
+  width: 400px;
+  margin:  auto;
+}
+.right {
+  width: 100%;
+  padding: 50px;
+}
+.right h2 {
+  font-size: 1.7rem;
+  font-weight: 900;
+  text-align: center;
+}
+.right h4 {
+  font-size: 1.2rem;
+  line-height: 2rem;
+  font-weight: 900;
+  margin-top: 30px;
+}
+.right span {
+  color: tomato;
+}
+.right p {
+  margin-top: 0px;
+  font-size: .8rem;
+  line-height: 1.2rem;
+  width: 300px;
+  text-align: justify;
+}
+.right button {
+  margin: 40px 0px 0px 20px;
+  padding: 6px 14px;
+  font-size: .8rem;
+  border-radius: 9px;
+  border: none;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(210, 54, 5, 1) 0%,
+    rgba(244, 210, 92, 1) 100%
+  );
+}
 }
