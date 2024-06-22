@@ -71,20 +71,20 @@
   text-align: center;
 }
 .left img {
-  width: 400px;
-  margin:  auto;
+  width: 300px;
+  margin:  0 auto;
 }
 .right {
   width: 100%;
-  padding: 50px;
+  padding: 30px;
 }
 .right h2 {
-  font-size: 1.7rem;
+  font-size: 1.5rem;
   font-weight: 900;
-  text-align: center;
+  margin: 0px 0px 0px 20px;
 }
 .right h4 {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   line-height: 2rem;
   font-weight: 900;
   margin-top: 30px;
@@ -94,10 +94,11 @@
 }
 .right p {
   margin-top: 0px;
-  font-size: .8rem;
-  line-height: 1.2rem;
+  font-size: .7rem;
+  line-height: 1.1rem;
   width: 300px;
   text-align: justify;
+  margin: 0 auto;
 }
 .right button {
   margin: 40px 0px 0px 20px;
