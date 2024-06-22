@@ -290,7 +290,7 @@
   }
   .right button {
     float: right;
-    margin-right:75px ;
+    margin-right: 75px;
     padding: 6px 14px;
     font-size: 0.8rem;
     border-radius: 9px;
@@ -303,4 +303,50 @@
       rgba(244, 210, 92, 1) 100%
     );
   }
+}
+@media screen and (max-width: 1200px) and (min-width: 900px) {
+  
+#hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  background-color: rgb(241, 236, 228);
+}
+.left {
+  width: 50%;
+  text-align: right;
+}
+.left img {
+  width: 440px;
+  margin: 0px 50px 100px 0px;
+}
+
+.right h2 {
+  width: 400px;
+  font-size: 2.6rem;
+  line-height: 3.4rem;
+  font-weight: 900;
+}
+.right p {
+  margin-top: 20px;
+  width: 400px;
+  font-size: .9rem;
+  text-align: justify;
+}
+.right button {
+  margin-top: 40px;
+  padding: 8px 15px;
+  font-size: .8rem;
+  border-radius: 9px;
+  border: none;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(210, 54, 5, 1) 0%,
+    rgba(244, 210, 92, 1) 100%
+  );
+}
 }
