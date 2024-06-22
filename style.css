@@ -55,6 +55,17 @@
     rgba(244, 210, 92, 1) 100%
   );
 }
+.right button:hover{
+  font-weight: bold;
+  transition-duration: .3s;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgb(241, 61, 6) 0%,
+    rgb(241, 191, 9) 100%
+  );
+}
 @media screen and (max-width: 600px) and (min-width: 370px) {
   #hero {
     display: flex;
