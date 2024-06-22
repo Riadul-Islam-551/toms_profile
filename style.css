@@ -55,7 +55,7 @@
     rgba(244, 210, 92, 1) 100%
   );
 }
-@media screen and (max-width:620px) and (min-width:370px){
+@media screen and (max-width:600px) and (min-width:370px){
   
 #hero {
   display: flex;
